@@ -1,24 +1,13 @@
-# README
+# OmniAuth Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a tiny little app that takes an Oauth login from Google, then displays the user's data. 
 
-Things you may want to cover:
+## Set up
+I'm assuming you have Ruby 2.4.2 and Rails 5.1.4 installed
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone the project: `$ git clone https://github.com/jsheridanwells/OmniAuthDemo.git`
+2. Open the project directions: `$ cd OmniAuthDemo`
+3. Install the gems: `$ bundle install`
+4. Run the server: `rails server`
+5. Navigate to `localhost:3000`
+6. Sign in with Google and on the next page you'll see items from your Google user hash. 
